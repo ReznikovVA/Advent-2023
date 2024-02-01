@@ -13,7 +13,6 @@
             }
 
             string line_trimmed = parts[1].Trim();
-
             string[] cards = line_trimmed.Split('|');
 
             string[] winNumbers = cards[0].Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
