@@ -26,7 +26,6 @@
             Console.WriteLine(CalculatePoints(matchingCharacters.Count()));
             sum += CalculatePoints(matchingCharacters.Count());
         }
-
         Console.WriteLine(sum);
     }
 
